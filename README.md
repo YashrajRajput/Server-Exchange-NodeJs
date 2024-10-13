@@ -11,7 +11,7 @@ node client.js
 # Client Behavior:
 
 The client will attempt to establish a connection with the server.
-If the server is not yet available, the client will retry the connection every 2 seconds (or based on the configured retry interval).
+If the server is not yet available, the client will retry the connection every 3 seconds (or based on the configured retry interval).
 Once connected, the client will start fetching data packets from the server.
 
 
